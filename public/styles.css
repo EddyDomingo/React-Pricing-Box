@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+/* Global Variables*/
+:root {
+  /* colors*/
+  --veryLightGrayishBlue: hsl(240, 78%, 98%);
+}
+
+body {
+  background-color: var(--veryLightGrayishBlue);
+  background-image: url("images/bg-top.svg");
+  background-position: top right;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
